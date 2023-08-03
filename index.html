@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nagaland Tribe Countdown</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>    
+</head>
+<body>
+    <div class="container">
+        <h1 id="countdownTitle">Nagaland Festivals Countdown</h1>
+        <div id="line"></div>
+        <p id="timer"></p>
+        <div>
+            <label for="tribeSelect">Select a Tribe:</label>
+            <select id="tribeSelect" onchange="updateFestival(this.value)">
+                <option value="">Select Tribe</option>
+                <option value="Angami">Angami</option>
+                <option value="Rengma">Rengma</option>
+                <option value="Zeliang">Zeliang</option>
+                <option value="Kuki">Kuki</option>
+                <option value="Kachari">Kachari</option>
+                <option value="Chakhesang">Chakhesang</option>
+                <option value="Pochury">Pochury</option>
+                <option value="Chang">Chang</option>
+                <option value="Ao">Ao</option>
+                <option value="Konyak">Konyak</option>
+                <option value="Phom">Phom</option>
+                <option value="Khiamniungam">Khiamniungam</option>
+                <option value="Yimkhiunger">Yimkhiunger</option>
+                <option value="Sangtam">Sangtam</option>
+                <option value="Lotha">Lotha</option>
+                <option value="Sumi">Sumi</option>
+                <option value="AllTribes">All Tribes (Hornbill Festival)</option>
+            </select>
+        </div>
+        <div>
+            <label for="languageSelect">Select Language:</label>
+            <select id="languageSelect" onchange="setLanguage(this.value)">
+                <option value="english">English</option>
+                <option value="nagamese">Nagamese</option>
+            </select>
+        </div>
+    </div>
+    <div class="made-by">
+        <p>Made by Agniva Maiti</p>
+    </div>
+    <div class="disclaimer">
+        <p>Disclaimer: Some dates may not be accurate.</p>
+    </div>
+</body>
+</html>

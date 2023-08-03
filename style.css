@@ -1,0 +1,76 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background: grey;
+}
+
+.container {
+    white-space: nowrap;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#line {
+    border: none;
+    border-bottom: 1px solid white;
+    width: auto;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+select {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+button {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    margin: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+/* Styling for the Nagamese version */
+body[lang="nagamese"] .container {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body[lang="nagamese"] #title {
+    font-size: 32px;
+}
+
+body[lang="nagamese"] #timer {
+    font-size: 28px;
+}
+.made-by {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-style: italic;
+    color: #666;
+}
+
+.disclaimer {
+    text-align: center;
+    margin-top: 30px;
+    font-style: italic;
+    color: #666;
+}
