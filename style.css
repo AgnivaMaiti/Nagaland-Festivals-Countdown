@@ -46,7 +46,6 @@ button {
     cursor: pointer;
 }
 
-/* Styling for the Nagamese version */
 body[lang="nagamese"] .container {
     font-family: 'Courier New', Courier, monospace;
 }
